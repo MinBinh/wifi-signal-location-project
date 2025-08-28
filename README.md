@@ -28,6 +28,12 @@ After creating the model, an app is created for implementation in the school.
 
 A big button displays model prediction while smaller bottom buttons are present to offer students other options if the model predicts the incorrect adjacent area within the school.
 
-In additional app also ask student if they are meeting with a teacher in the room. 
+<p align="center">
+  <img src="https://github.com/MinBinh/wifi-signal-location-project/blob/master/image_main.jpg" width="400"/>
+  <img src="https://github.com/MinBinh/wifi-signal-location-project/blob/master/image_checked_in.jpg" width="400"/>
+</p>
 
-Finally, data of the model's prediction, the students final actual location, time, and teacher they met (if they did) are sent to a spreadsheet using Google Sheet API and Gsheets library of Dart.
+In additional app also ask student if they are meeting with a teacher in the room. (Of course this feature is not on display as I have removed for privacy purposes)
+
+Finally, data of the model's prediction, the students final actual location, time, and teacher they met (if they did) are sent to a spreadsheet using Google Sheet API and Gsheets library of Dart. The decision to do this is due to the previous system of scanning QR codes are all fed into a spreadsheet that is managed by a faculty, so this app builds upon that system.
+
